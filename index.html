@@ -5,8 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>okiro-page-1</title>
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
 </head>
+
 <body>
-    <h1>i will be start soon </h1>
+    <main>
+        <div class="header">
+            <div class="nav" id="nav">
+                <a href="" class="nav-link">Home</a>
+                <a href="" class="nav-link">Membership</a>
+                <a href="" class="nav-link">Style Guide</a>
+                <div class="dot-bar">
+                    <a href="#" class="nav-link icons" onclick="show()"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
+                    <div class="icon-nav">
+                        <a href="" class="nav-bar">Features</a>
+                        <a href="" class="nav-bar">Authors</a>
+                        <a href="" class="nav-bar">Tags</a>
+                        <a href="" class="nav-bar">Subscribe</a>
+                        <a href="" class="nav-bar">Contact</a>
+                        <a href="" class="nav-bar">Demos</a>
+                        <a href="" class="nav-bar">Get Theme</a>
+                    </div>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="okiro.svg" alt="" srcset="" height="44px" width="112px">
+            </div>
+            <div class="signup">
+                <a href="" class="search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a href="" class="sign-in ">Sign in</a>
+                <a href="" class="sign-up">Sign up</a>
+            </div>
+
+        </div>
+    </main>
+    <script>
+        function show(){
+            let icon = document.querySelector(".icon-nav");
+            icon.style.display="flex";
+        }
+
+    </script>
 </body>
 </html>
