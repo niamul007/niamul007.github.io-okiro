@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toggle Menu</title>
+<style>
+  /* Styles for the menu */
+  .menu {
+    display: none; /* Initially hide the menu */
+  }
+  .menu.visible {
+    display: block; /* Display the menu when visible class is added */
+  }
+  /* Styles for the menu button */
+  .menu-button {
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<!-- Menu button -->
+<div class="menu-button" onclick="toggleMenu()">
+  <div id="bar">&#9776;</div> <!-- Bar symbol -->
+  <div id="close" style="display:none;">&times;</div> <!-- X symbol initially hidden -->
+</div>
+
+<!-- Menu items -->
+<div class="menu" id="menu">
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+</div>
+
+<script>
+  function toggleMenu() {
+    var menu = document.getElementById('menu');
+    var bar = document.getElementById('bar');
+    var close = document.getElementById('close');
+
+    // Toggle visibility of the menu
+    if (menu.classList.contains('visible')) {
+      menu.classList.remove('visible');
+      bar.style.display = 'block'; // Show the bar symbol
+      close.style.display = 'none'; // Hide the close symbol
+    } else {
+      menu.classList.add('visible');
+      bar.style.display = 'none'; // Hide the bar symbol
+      close.style.display = 'block'; // Show the close symbol
+    }
+  }
+</script>
+
+</body>
+</html>

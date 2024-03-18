@@ -1,49 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: "Nunito", sans-serif;
 }
-main{
+
+main {
     margin-right: 4rem;
     margin-left: 4rem;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    height: 170px;
+    height: 150px;
 }
 
-li{
+li {
     list-style: none;
     display: flex;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
-.nav-link{
+
+.nav-link {
     margin-right: 20px;
     text-decoration: none;
     font-size: 18px;
-    color:#2B394e;
+    color: #2B394e;
     font-weight: 800;
 }
 
-.sign-in{
+.sign-in {
     margin-left: 20px;
     margin-right: 20px;
     text-decoration: none;
     font-size: 18px;
-    color:#2B394e;
+    color: #2B394e;
     font-weight: 800;
 
 }
-.sign-up{
+
+.sign-up {
     text-decoration: none;
     font-size: 19px;
     font-weight: 800;
@@ -52,18 +58,21 @@ li{
     background-color: #646eff;
     border-radius: 30px;
 }
-.icons{
+
+.icons {
     font-size: 25px;
 }
-.logo{
+
+.logo {
     margin-left: -7rem;
 }
 
 /* for dot icons bar */
-.dot-bar{
+.dot-bar {
     position: relative;
 }
-.icon-nav{
+
+.icon-nav {
     width: 155px;
     height: 250px;
     position: absolute;
@@ -77,49 +86,84 @@ li{
     border-radius: 15px;
     display: none;
 }
-.nva-icon{
+
+.nva-icon {
     display: flex;
 }
-.nav-bar{
+
+.nav-bar {
     padding: 5px;
     text-decoration: none;
     color: #2B394e;
     font-weight: 900;
     margin-left: 2rem;
 }
-@media(max-width:1020px){
-    #nav{
+
+@media(max-width:1020px) {
+    #nav {
         display: none;
     }
-    #img{
+
+    #img {
         margin-left: 7rem;
     }
-    .sign-up,.sign-in,.search{
+
+    .sign-up,
+    .sign-in,
+    .search {
         display: none;
     }
-    #bar{
+
+    #bar {
         display: flex;
     }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 120px;
+    }
 }
+
 /* work for menubar */
-.bar{
+.for-toggle {
+    display: flex;
+}
+
+.bar {
     text-decoration: none;
     margin-left: 1rem;
     display: none;
 }
 
+.menu {
+    display: none;
+    /* Initially hide the menu */
+}
+
+.menu.visible {
+    display: flex;
+    /* Display the menu when visible class is added */
+}
+
+/* .menu-button {
+    cursor: pointer;
+  } */
 /* to asing reletive */
-.signup{
+.signup {
     position: relative;
 }
-.side-menu{
+
+.side-menu {
     position: absolute;
-    top: 8rem;
+    top: 5rem;
     right: 3rem;
     /* padding-left: 4rem;
     padding-right: 1rem; */
     width: 200px;
-    height: 77vh;
+    /* height: 77vh; */
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -129,21 +173,23 @@ li{
     flex-direction: column;
     display: none;
 }
-#side-menu-ul >li{
+
+#side-menu-ul>li {
     padding-top: 10px;
     margin-right: 1rem;
 }
 
-.li-up-1{
+.li-up-1 {
     margin-top: .20rem;
     background-color: #3a45de;
     padding: 10px 8px;
-    border-radius:30px ;
+    border-radius: 30px;
     color: #FFFFFF;
     text-decoration: none;
-    
+
 }
-.h2-container{
+
+.h2-container {
     width: 100%;
     height: 50px;
     background-color: #3a45de;
@@ -155,9 +201,144 @@ li{
     border-bottom-left-radius: 20px;
 
 }
-.search-bar-menu{
+
+.search-bar-menu {
     color: #FFFFFF;
     margin-right: 30px;
     margin-bottom: 10px;
 
+}
+
+/* for class list sidemenu */
+.x-time {
+    transition: 0.2s;
+    position: relative;
+
+}
+.bars{
+    margin-left: 3rem;
+}
+
+/* working for divs */
+.post-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    min-height:321px ;
+    max-height: 500px;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.posts {
+    /* padding:15px; */
+    width: 204px;
+    background-color: #d2f8f0;
+    ;
+    text-align: start;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-height: auto;
+    min-height: 290px;
+    transition: transform 0.2s ease;
+}
+.posts:hover{
+    transform: translateY(-5px);
+}
+.para-div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.img1 {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.img4 {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.img2 {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.img3 {
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+
+.img5 {
+    height: 180px;
+    width: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.post5{
+    display: none;
+}
+@media(min-width:1350px){
+    .post5{
+        display: flex;
+    }
+}
+
+.para {
+    margin-right: 1rem;
+    font-weight: 800;
+}
+
+.author {
+    font-size: 13px;
+    margin-right: 2rem;
+    font-weight: 700;
+    margin-top: .60rem;
+}
+
+/* for aling self */
+#post3 {
+    /* margin-top: 20px; */
+    background-color: #ffeab9;
+}
+#post4{
+    /* margin-top: 20px; */
+}
+
+#post2 {
+    background-color: #fce6f0;
+}
+
+.featur{
+    writing-mode: vertical-rl; /* Vertical writing mode, text goes from right to left */
+    transform: rotate(180deg); /* Rotate the text to make it vertical */
+    white-space: nowrap; /* Prevent text wrapping */
+    font-size: 18px; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    /* Additional styling if needed */
+    font-weight: 500;
 }

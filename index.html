@@ -1,65 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>okiro-page-1</title>
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
 
-
-</head>
-
-<body>
+  <body>
     <main>
-        <div class="header">
-            <div class="nav" id="nav">
-                <a href="" class="nav-link">Home</a>
-                <a href="" class="nav-link">Membership</a>
-                <a href="" class="nav-link">Style Guide</a>
-                <div class="dot-bar">
-                    <a href="#" class="nav-link icons" onclick="show()"><i class="fa fa-ellipsis-h" aria-hidden="true"></i></a>
-                    <div class="icon-nav">
-                        <a href="" class="nav-bar">Features</a>
-                        <a href="" class="nav-bar">Authors</a>
-                        <a href="" class="nav-bar">Tags</a>
-                        <a href="" class="nav-bar">Subscribe</a>
-                        <a href="" class="nav-bar">Contact</a>
-                        <a href="" class="nav-bar">Demos</a>
-                        <a href="" class="nav-bar">Get Theme</a>
-                    </div>
-                </div>
+      <div class="header">
+        <div class="nav" id="nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Membership</a>
+          <a href="" class="nav-link">Style Guide</a>
+          <div class="dot-bar">
+            <a href="#" class="nav-link icons" onclick="show()"
+              ><i class="fa fa-ellipsis-h" aria-hidden="true"></i
+            ></a>
+            <div class="icon-nav">
+              <a href="" class="nav-bar">Features</a>
+              <a href="" class="nav-bar">Authors</a>
+              <a href="" class="nav-bar">Tags</a>
+              <a href="" class="nav-bar">Subscribe</a>
+              <a href="" class="nav-bar">Contact</a>
+              <a href="" class="nav-bar">Demos</a>
+              <a href="" class="nav-bar">Get Theme</a>
             </div>
-            <div class="logo">
-                <img src="okiro.svg" alt="" srcset="" height="44px" width="112px" id="img">
-            </div>
-            <div class="signup">
-                <a href="" class="search"><i class="fa fa-search fa-1x" aria-hidden="true"></i></a>
-                <a href="" class="sign-in ">Sign in</a>
-                <a href="" class="sign-up">Sign up</a>
-                <a href="" class="bar" id="bar" onclick="showMenu()"><i class="fa fa-bars fa-2x" aria-hidden="true" ></i></a>
-            </div>
-                <div class="side-menu">
-                    <ul id="side-menu-ul">
-                        <li>Home</li>
-                        <li>Membership</li>
-                        <li>Style Guide</li>
-                        <li>Features</li>
-                        <li>Authors</li>
-                        <li>Tgas</li>
-                        <li>Subscribe</li>
-                        <li>Contact</li>
-                        <li>Demos</li>
-                        <li>Get Theme</li>
-                        <li>Sign in</li>
-                        <li class="li-up"><a href="" class="li-up-1">Sign up</a></li>
-                    </ul>
-                    <div class="h2-container">
-                        <h3 class="search-bar-menu"> Search <i class="fa fa-search fa-x" aria-hidden="true"></i></h3>
-                    </div>
-                </div>
+          </div>
         </div>
+        <div class="logo">
+          <img
+            src="okiro.svg"
+            alt=""
+            srcset=""
+            height="44px"
+            width="112px"
+            id="img"
+          />
+        </div>
+        <div class="signup">
+          <a href="" class="search"
+            ><i class="fa fa-search fa-1x" aria-hidden="true"></i
+          ></a>
+          <a href="" class="sign-in">Sign in</a>
+          <a href="" class="sign-up">Sign up</a>
+          <div class="bars menu-button" onclick="toggleMenu()">
+            <a href="#" class="bar" id="bar"
+              ><i class="fa fa-bars fa-2x" aria-hidden="true"></i
+            ></a>
+            <a href="#" id="close" style="display: none"
+              ><i class="fa fa-times fa-2x" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="side-menu menu" id="menu">
+          <ul id="side-menu-ul">
+            <li>Home</li>
+            <li>Membership</li>
+            <li>Style Guide</li>
+            <li>Features</li>
+            <li>Authors</li>
+            <li>Tgas</li>
+            <li>Subscribe</li>
+            <li>Contact</li>
+            <li>Demos</li>
+            <li>Get Theme</li>
+            <li>Sign in</li>
+            <li class="li-up"><a href="" class="li-up-1">Sign up</a></li>
+          </ul>
+          <div class="h2-container">
+            <h3 class="search-bar-menu">
+              Search <i class="fa fa-search fa-x" aria-hidden="true"></i>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="post-container">
+        <div class="featur">
+            <p class="featured" >F E A T U R E D</p>
+        </div>
+        <div class="posts" id="post1">
+          <img src="img1.jpeg" alt="" class="img1" />
+          <div class="para-div">
+            <p class="para">Don’t be afraid</p>
+            <p class="author">Megan Anderson, Lauren Langfor</p>
+          </div>
+        </div>
+        <div class="posts" id="post2">
+          <img src="img2.jpeg" alt="" class="img2" />
+          <div class="para-div">
+            <p class="para">Creating deluxe drink is like playing a sport</p>
+            <p class="author">Victoria West</p>
+          </div>
+        </div>
+        <div class="posts" id="post3">
+          <img src="img3.jpeg" alt="" class="img3" />
+          <div class="para-div">
+            <p class="para">I always loved aesthetics</p>
+            <p class="author">Hannah Weastell, Victoria West</p>
+          </div>
+        </div>
+        <div class="posts" id="post4">
+          <img src="img4.jpeg" alt="" class="img4" />
+          <div class="para-div">
+            <p class="para">You have to fight to reach your dream</p>
+            <p class="author">Megan Anderson</p>
+          </div>
+        </div>
+        <div class="posts post5" >
+          <img src="img5.jpeg" alt="" class="img4" />
+          <div class="para-div">
+            <p class="para">You must grow like a tree</p>
+            <p class="author">Patricia Jenikins, Charless Barrett</p>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
