@@ -31,22 +31,35 @@
                 </div>
             </div>
             <div class="logo">
-                <img src="okiro.svg" alt="" srcset="" height="44px" width="112px">
+                <img src="okiro.svg" alt="" srcset="" height="44px" width="112px" id="img">
             </div>
             <div class="signup">
-                <a href="" class="search"><i class="fa fa-search" aria-hidden="true"></i></a>
+                <a href="" class="search"><i class="fa fa-search fa-1x" aria-hidden="true"></i></a>
                 <a href="" class="sign-in ">Sign in</a>
                 <a href="" class="sign-up">Sign up</a>
+                <a href="" class="bar" id="bar" onclick="showMenu()"><i class="fa fa-bars fa-2x" aria-hidden="true" ></i></a>
             </div>
-
+                <div class="side-menu">
+                    <ul id="side-menu-ul">
+                        <li>Home</li>
+                        <li>Membership</li>
+                        <li>Style Guide</li>
+                        <li>Features</li>
+                        <li>Authors</li>
+                        <li>Tgas</li>
+                        <li>Subscribe</li>
+                        <li>Contact</li>
+                        <li>Demos</li>
+                        <li>Get Theme</li>
+                        <li>Sign in</li>
+                        <li class="li-up"><a href="" class="li-up-1">Sign up</a></li>
+                    </ul>
+                    <div class="h2-container">
+                        <h3 class="search-bar-menu"> Search <i class="fa fa-search fa-x" aria-hidden="true"></i></h3>
+                    </div>
+                </div>
         </div>
     </main>
-    <script>
-        function show(){
-            let icon = document.querySelector(".icon-nav");
-            icon.style.display="flex";
-        }
-
-    </script>
+    <script src="index.js"></script>
 </body>
 </html>
