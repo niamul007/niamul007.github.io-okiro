@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+
+}
+.sign-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sideImg{
+    background-image: url(image_2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    height: 100vh;
+}
+
+.sign-option{
+    width: 100%;
+    height: auto;
+}
+.d-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.sign-para{
+    font-size: 42px;
+    font-weight: 800;
+    margin-top: 6rem;
+    color: #2b394e;
+}
+.before-email{
+    margin-top: 2rem;
+    font-size: 13px;
+    margin-bottom: 3rem;
+    margin-bottom: .40rem;
+    color: #2b394e;
+
+}
+.email{
+    height: 70px;
+    width: 469px;
+    border: none;
+    border-radius: 40px;
+    background-color: #F4F4F7;
+    margin-bottom: 1.60rem;
+    text-align: center;
+    color: #2b394e;
+    font-size: 20px;
+}
+.name{
+    height: 70px;
+    width: 469px;
+    border: none;
+    border-radius: 40px;
+    background-color: #F4F4F7;
+    margin-bottom: .50rem;
+    text-align: center;
+    color: #2b394e;
+    font-size: 20px;
+}
+
+input[type="email"]:focus{
+    outline: none;
+}
+
+#btn{
+    height: 73px;
+    width: 157px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    background-color:#546eff;
+    margin-bottom: 1rem;
+    border-radius: 40px;
+    border: none;
+}
+.after-btn{
+    font-size: 13px;
+}
+.sign-up{
+ color: #2b394e;
+ font-weight: 700;
+ text-decoration: none;
+ margin-bottom: 1rem;
+
+}
+.sign-up:hover{
+    text-decoration: underline;
+}
+
+@media(max-width:800px){
+    .sideImg{
+        background-image: url(image_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        height: 100vh;
+        display: none;
+    }
+    .sign-container{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .sign-option{
+        margin-top: 10rem;
+        width: 100%;
+        height: 100%;
+    }
+    .before-email{
+        margin-top: 3rem;
+        font-size: 13px;
+        margin-bottom: 3rem;
+        margin-bottom: .40rem;
+        color: #2b394e;
+    
+    }
+    #email{
+        height: 70px;
+        width: 469px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+    }
+    .name{
+        height: 70px;
+        width: 469px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+    }
+    input[type="email"]:focus{
+        outline: none;
+        margin-bottom: 3rem;
+    }
+    
+    #btn{
+        height: 73px;
+        width: 197px;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        background-color:#546eff;
+        margin-bottom: 3rem;
+        border-radius: 40px;
+        border: none;
+    }
+    .after-btn{
+        font-size: 13px;
+    }
+    .sign-up{
+     color: #2b394e;
+     font-weight: 700;
+     text-decoration: none;
+    
+    }
+    
+}
+@media(max-width:520px){
+    .sideImg{
+        background-image: url(image_1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        height: 100vh;
+        display: none;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .sign-container{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .sign-option{
+        margin-top: 10rem;
+        width: 100%;
+        height: 100%;
+    }
+    .before-email{
+        margin-top: 3rem;
+        font-size: 13px;
+        margin-bottom: 3rem;
+        margin-bottom: .40rem;
+        color: #2b394e;
+    
+    }
+    #email{
+        height: 69px;
+        width: 423px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+    }
+    .name{
+        height: 69px;
+        width: 423px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+    }
+    input[type="email"]:focus{
+        outline: none;
+        margin-bottom: 3rem;
+    }
+    
+    #btn{
+        height: 73px;
+        width: 157px;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        background-color:#546eff;
+        margin-bottom: 3rem;
+        border-radius: 40px;
+        border: none;
+    }
+    .after-btn{
+        font-size: 13px;
+    }
+    .sign-up{
+     color: #2b394e;
+     font-weight: 700;
+     text-decoration: none;
+    
+    }
+    .sign-para{
+        font-size: 32px;
+        font-weight: 800;
+        margin-top: 6rem;
+        color: #2b394e;
+        text-align: center;
+    }
+    
+}
+@media(max-width:480px){
+    .sign-container{
+        margin-top: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+    .sign-option{
+        margin-top: 10rem;
+        width: 100%;
+        height: 100%;
+    }
+    .before-email{
+        margin-top: 3rem;
+        font-size: 13px;
+        margin-bottom: 3rem;
+        margin-bottom: .40rem;
+        color: #2b394e;
+    
+    }
+    #email{
+        height: 56px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 80%;
+
+    }
+    .name{
+        height: 56px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 1rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 80%;
+    }
+    input[type="email"]:focus{
+        outline: none;
+        margin-bottom: 3rem;
+    }
+    
+    #btn{
+        height: 59px;
+        width: 156px;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        background-color:#546eff;
+        margin-bottom: 3rem;
+        border-radius: 40px;
+        border: none;
+    }
+    .after-btn{
+        font-size: 13px;
+    }
+    .sign-up{
+     color: #2b394e;
+     font-weight: 700;
+     text-decoration: none;
+    
+    }
+    .sign-para{
+        font-size: 30px;
+        font-weight: 800;
+        margin-top: 6rem;
+        color: #2b394e;
+        text-align: center;
+    }
+    
+}
+@media(max-width:333px){
+    #email{
+        height: 56px;
+        border: none;
+        border-radius: 40px;
+        background-color: #F4F4F7;
+        margin-bottom: 3rem;
+        text-align: center;
+        color: #2b394e;
+        font-size: 20px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 80%;
+
+    }
+
+    
+    #btn{
+        height: 59px;
+        width: 146px;
+        color: white;
+        font-size: 20px;
+        font-weight: 800;
+        text-align: center;
+        background-color:#546eff;
+        margin-bottom: 3rem;
+        border-radius: 40px;
+        border: none;
+    }
+    .after-btn{
+        font-size: 13px;
+    }
+    .sign-up{
+     color: #2b394e;
+     font-weight: 700;
+     text-decoration: none;
+    
+    }
+    .sign-para{
+        font-size: 24px;
+    }
+    .sign-para{
+        font-size: 25px;
+        font-weight: 800;
+        margin-top: 6rem;
+        color: #2b394e;
+        text-align: center;
+    }
+    
+}
