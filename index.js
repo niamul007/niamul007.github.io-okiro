@@ -36,3 +36,4 @@ function small() {
   let emailDiv = document.querySelector(".input-btn");
   emailDiv.classList.add("in-btn-click-out");
 }
+
