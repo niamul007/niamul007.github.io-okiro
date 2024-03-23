@@ -994,7 +994,9 @@ main {
 
     }
 }
-
+.about{
+    list-style: none;
+}
 #main {
     margin: 4rem;
 }
@@ -2230,6 +2232,7 @@ a {
     font-size: 15px;
     font-weight: 700;
     margin-bottom: 20px;
+    list-style: none;
 }
 
 .li-foot-last:hover {
@@ -2407,3 +2410,10 @@ a {
     background-color: #0000000f;
     border-radius: 30px;
 } */
+
+
+/* last time changes */
+.last-time{
+    text-decoration: none;
+    color: #2B394E;
+}
