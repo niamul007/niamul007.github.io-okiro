@@ -2341,7 +2341,7 @@ a {
     }
 }
 
-@media(max-width:400px) {
+@media(max-width:400px) and (max-height:950px) {
     .final-container {
         height: 100%;
         display: flex;
@@ -2432,4 +2432,5 @@ a {
 .last-time{
     text-decoration: none;
     color: #2B394E;
+    cursor: pointer;
 }
