@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>post2</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="member.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="nav" id="nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="" class="nav-link">Membership</a>
+          <a href="" class="nav-link">Style Guide</a>
+          <div class="dot-bar">
+            <a href="#" class="nav-link icons" onclick="show()"
+              ><i class="fa fa-ellipsis-h" aria-hidden="true"></i
+            ></a>
+            <div class="icon-nav">
+              <a href="" class="nav-bar">Features</a>
+              <a href="" class="nav-bar">Authors</a>
+              <a href="" class="nav-bar">Tags</a>
+              <a href="" class="nav-bar">Subscribe</a>
+              <a href="" class="nav-bar">Contact</a>
+              <a href="" class="nav-bar">Demos</a>
+              <a href="" class="nav-bar">Get Theme</a>
+            </div>
+          </div>
+        </div>
+        <div class="logo">
+          <img
+            src="okiro.svg"
+            alt=""
+            srcset=""
+            height="44px"
+            width="112px"
+            id="img"
+          />
+        </div>
+        <div class="signup">
+          <a href="" class="search"
+            ><i class="fa fa-search fa-1x" aria-hidden="true"></i
+          ></a>
+          <a href="sign.html" class="sign-in">Sign in</a>
+          <a href="sign-up.html" class="sign-up">Sign up</a>
+          <div class="bars menu-button" onclick="toggleMenu()">
+            <a href="#" class="bar" id="bar"
+              ><i class="fa fa-bars fa-2x" aria-hidden="true"></i
+            ></a>
+            <a href="#" id="close" style="display: none"
+              ><i class="fa fa-times fa-2x" aria-hidden="true"></i
+            ></a>
+          </div>
+        </div>
+        <div class="side-menu menu" id="menu">
+          <ul id="side-menu-ul">
+            <li>Home</li>
+            <li>Membership</li>
+            <li>Style Guide</li>
+            <li>Features</li>
+            <li>Authors</li>
+            <li>Tgas</li>
+            <li>Subscribe</li>
+            <li>Contact</li>
+            <li>Demos</li>
+            <li>Get Theme</li>
+            <li>Sign in</li>
+            <li class="li-up"><a href="" class="li-up-1">Sign up</a></li>
+          </ul>
+          <div class="h2-container">
+            <h3 class="search-bar-menu">
+              Search <i class="fa fa-search fa-x" aria-hidden="true"></i>
+            </h3>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="container-member">
+        <div class="member-img">
+          <div class="above-member-para">
+            <p class="member">Membership</p>
+            <p class="about-membership">
+              Unlock full access to Okiro and see the entire library of
+              subscribers-only content & updates
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="pricing">
+        <div class="price-plan">
+          <p class="price-plan-para">Choose your plan</p>
+          <div class="month-year">
+            <button class="month">Monthly</button>
+            <button id="Yearly">Yearly</button>
+          </div>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="pricing-divs-1">
+          <div class="member-price-list">
+            <h4 id="free" class="bold">Free</h4>
+            <div class="member-price">
+              <sup id="dollar-sym">$</sup>
+              <p class="dollar" id="d">0</p>
+            </div>
+            <div class="all-price-para">
+              <p class="detail-about-price">
+                Sign up now to be notified of new content and support Okiro,
+                help keep this site independent.
+              </p>
+              <ul>
+                <li>Full access to posts for subscribers</li>
+                <li>Weekly email newsletter</li>
+              </ul>
+              <button class="for-sub">Subscribe now</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="pricing-divs-1">
+          <div class="member-price-list">
+            <h4 id="free">Premium</h4>
+            <div class="member-price">
+              <sup id="dollar-sym">$</sup>
+              <h3 class="dollar">7</h3>
+              <span id="mo">/y</span>
+            </div>
+            <div class="all-price-para">
+              <p class="detail-about-price">
+                Get access to the library of paid-members only posts.
+              </p>
+              <ul>
+                <li>Full access to Premium posts</li>
+                <li>Weekly email newsletter</li>
+                <li>Support indie publishing</li>
+                <li>Simple, secure card payment</li>
+              </ul>
+              <button class="for-sub">Subscribe now</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-divs-1" id="pricing-divs-1-id">
+          <div class="member-price-list">
+            <h4 id="free">Premium pluse</h4>
+            <div class="member-price">
+              <sup id="dollar-sym">$</sup>
+              <h3 class="dollar">14</h3>
+              <span id="mo">/mo</span>
+            </div>
+            <div class="all-price-para">
+              <p class="detail-about-price">
+                Get access to everything.              </p>
+              <ul>
+                <li>Full access to Premium Plus posts</li>
+                <li>Members-only Q&A</li>
+                <li>Weekly email newsletter</li>
+                <li>Support indie publishing</li>
+                <li>Simple, secure card payment</li>
+              </ul>
+              <button class="for-sub">Subscribe now</button>
+            </div>
+          </div>
+        </div>
+ 
+      </div>
+      <p class="after-btn">
+        Already have an account ? <a href="sign.html" class="member-sign">Sign in</a>
+      </p>
+    </main>
+    <main>
+      <div class="subscribe-btn-footer">
+        <div class="btn-container">
+          <p class="subscribe">Sbscribe to new posts</p>
+        </div>
+        <div class="input-btn" onclick="large()" onmouseout="small()">
+          <input
+            type="email"
+            name=""
+            id="in-foot"
+            placeholder="Your email address"
+          />
+          <button type="submit" id="in-submit">Subscribe</button>
+        </div>
+      </div>
+    </main>
+    <main>
+      <div class="final-container" id="final-container">
+        <div class="foot-first">
+          <div class="okiro">
+            <img
+              src="okiro.svg"
+              alt=""
+              srcset=""
+              height="35px"
+              width="87px"
+              id="img-last"
+            />
+            <p class="foooter-para">
+              A minimal, functional theme for running a paid-membership
+              publication on Ghost.
+            </p>
+            <div class="icons">
+              <a href="" class="all-icons"
+                ><i class="fa fa-facebook" aria-hidden="true"></i
+              ></a>
+              <a href="" class="all-icons"
+                ><i class="fa fa-meetup" aria-hidden="true"></i
+              ></a>
+              <a href="" class="all-icons"
+                ><i class="fa fa-twitter" aria-hidden="true"></i
+              ></a>
+              <a href="" class="all-icons"
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="all-foot" id="all-foot">
+          <!-- <div class="kinda-list"> -->
+          <div class="about">
+            <ul>
+              <li class="about" id="about">A B O U T</li>
+              <li class="li-foot-last">Features</li>
+              <li class="li-foot-last">Style Guide</li>
+              <li class="li-foot-last">Contact</li>
+              <li class="li-foot-last">Get Theme</li>
+            </ul>
+          </div>
+          <div class="about">
+            <ul>
+              <li class="about" id="about">F E A T U R E S</li>
+              <li class="li-foot-last">Account</li>
+              <li class="li-foot-last">Membership</li>
+              <li class="li-foot-last">Sign in</li>
+              <li class="li-foot-last">Sign up</li>
+            </ul>
+          </div>
+          <div class="about">
+            <ul>
+              <li class="about" id="about">SUPPORT</li>
+              <li class="li-foot-last">Authors</li>
+              <li class="li-foot-last">Tags</li>
+              <li class="li-foot-last">Dark version</li>
+              <li class="li-foot-last">404</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <p class="copy">
+        Okiro © 2024. All Right Reserved. Published with Ghost & Okiro.
+      </p>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
