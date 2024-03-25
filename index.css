@@ -180,6 +180,9 @@ main {
     background-color: #646eff;
     border-radius: 30px;
 }
+.sign-up:hover{
+    background-color: #2e3bf2;
+}
 
 .icons {
     font-size: 25px;
@@ -1817,6 +1820,9 @@ input[type="email"]:focus {
     font-size: medium;
     font-weight: 900;
 
+}
+#in-submit:hover{
+    background-color: #2331f1;
 }
 
 /* media for subscrie btn */
