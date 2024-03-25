@@ -1,0 +1,306 @@
+.container-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.member-img{
+    background-image: url(photo-1533910534207-90f31029a78e.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 35px;
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+.above-member-para{
+    width: 30%;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+    margin-left: 2rem;
+}
+.member{
+    margin-bottom: 1.5rem;
+    font-size: 22px;
+    font-weight: 800;
+    color: #2b234e;
+}
+.about-membership{
+    color: #2b234e;
+    font-weight: 700;
+
+}
+
+/* price div  */
+.pricing{
+    width: 100%;
+    margin-top: 4rem;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.price-plan-para{
+    font-size: 30px;
+    color: #2b234e;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
+.month-year{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 340px;
+    height: 80px;
+    background-color: #EDEDf1;
+    border-radius: 40px;
+}
+.month{
+    border: none;
+    height: 60px;
+    width: 148px;
+    background-color: blue;
+    border-radius: 40px;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    align-self: center;
+    font-size: larger;
+}
+#Yearly{
+    border: none;
+    height: 60px;
+    width: 148px;
+    /* background-color: blue; */
+    border-radius: 40px;
+    color: #2b234e;
+    font-weight: 800;
+    text-align: center;
+    align-self: center;
+    font-size: larger;
+
+}
+.grid{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+.pricing-divs-1{
+    height: 550px;
+    width: 300px;
+    border-radius: 30px;
+    background-color: #EDEDf1;
+    position: relative;
+}
+#free{
+    text-align: center;
+    background-color: rgb(86, 86, 240);
+    padding-top: .20rem;
+    padding-bottom: .20rem;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    color: white;
+    font-weight:900;
+
+}
+.dollar{
+    font-size: 70px;
+    font: 900;
+}
+#mo{
+    padding-top: 1.90rem;
+    font-size: 1rem;
+    font-weight: 900;
+    color: #2b234e;
+    padding-left: .20rem;
+}
+#dollar-sym{
+    padding-bottom: 2rem;
+    font-size: 1.80rem;
+    font-weight: 900;
+}
+.member-price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.detail-about-price{
+    text-align: center;
+    width: 80%;
+    font-weight: 800;
+    font-size: 20px;
+}
+.all-price-para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul {
+    margin-top: 1.70rem;
+}
+ul > li{
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.for-sub{
+    position: absolute;
+    bottom: 1.70rem;
+    align-self: center;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(84, 84, 215);
+    font-size: 20px;
+    color: white;
+    font-weight: 800;
+    height: 73px;
+    width: 193px;
+}
+.after-btn{
+    text-align: center;
+    margin-top: 2rem;
+}
+.member-sign{
+    text-decoration: none;
+    color: #2b234e;
+    font-weight: 900;
+}
+@media(max-width:950px){
+    .grid{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    
+    }
+    .pricing-divs-1{
+        height: 550px;
+        width: 300px;
+        border-radius: 30px;
+        background-color: #EDEDf1;
+        position: relative;
+    }
+    #pricing-divs-1-id{
+        width: 100%;
+    }
+}
+@media(max-width:890px){
+    .grid{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    
+    }
+    .pricing-divs-1{
+        height: 550px;
+        width: 300px;
+        border-radius: 30px;
+        background-color: #EDEDf1;
+        position: relative;
+        width: 100%;
+    }
+    #pricing-divs-1-id{
+        width: 100%;
+    }
+    .month-year{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 280px;
+        height: 70px;
+        background-color: #EDEDf1;
+        border-radius: 40px;
+    }
+    .month{
+        border: none;
+        height: 50px;
+        width: 100px;
+        background-color: blue;
+        border-radius: 30px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+        align-self: center;
+        font-size: medium;
+    }
+    #Yearly{
+        border: none;
+        height: 50px;
+        width: 100px;
+        /* background-color: blue; */
+        border-radius: 30px;
+        color: #2b234e;
+        font-weight: 800;
+        text-align: center;
+        align-self: center;
+        font-size: medium;
+    
+    }
+    
+}
+@media(max-width:300px){
+    .month-year{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 230px;
+        height: 50px;
+        background-color: #EDEDf1;
+        border-radius: 30px;
+    }
+    .month{
+        border: none;
+        height: 30px;
+        width: 80px;
+        background-color: blue;
+        border-radius: 25px;
+        color: white;
+        font-weight: 800;
+        text-align: center;
+        align-self: center;
+        font-size: small;
+    }
+    #Yearly{
+        border: none;
+        height: 30px;
+        width: 80px;
+        /* background-color: blue; */
+        border-radius: 25px;
+        color: #2b234e;
+        font-weight: 800;
+        text-align: center;
+        align-self: center;
+        font-size:small;
+    
+    }
+    .pricing-divs-1{
+        height: 630px;
+        width: 300px;
+        border-radius: 30px;
+        background-color: #EDEDf1;
+        position: relative;
+        width: 100%;
+    }
+}
