@@ -2371,6 +2371,8 @@ a {
         font-size: medium;
         font-weight: 300;
         margin-bottom: 2rem;
+        text-align: center;
+        margin-left: 1rem;
     }
 
     .okiro {
