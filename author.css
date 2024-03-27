@@ -1,0 +1,407 @@
+.author-container {
+    height: 100%;
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.authors-div{
+    background-color: #ededf1;
+    height: 419px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+.authors-div:hover{
+    transform: translateY(-5px);
+}
+
+.author1 {
+    height: 419px;
+    width: 200px;
+    text-decoration: none;
+    border-radius: 30px;
+
+}
+
+.author1-img {
+    width: 180px;
+    height: 150px;
+    border-radius: 20px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.author1-div {
+    height: 419px;
+    width: 200px;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.author1-div::after {
+    position: absolute;
+    top: 52%;
+    left: 2rem;
+    content: ' hello wo';
+    text-decoration: underline wavy 3px #cdcdcd;
+    color: #ededf1;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.author-name-tag {
+    margin-top: 1rem;
+    color: #2b394e;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 10px 10px 10px 10px;
+
+}
+
+.author-post-count {
+    margin-bottom: .20rem;
+    font-size: 17px;
+    font-weight: 800;
+    color: #2b394e;
+    margin-left: 10px;
+    position: relative;
+}
+
+.about-author-detail {
+    padding-top: 2rem;
+    color: #2b394e;
+    width: 90%;
+    font-size: 16px;
+    text-align: start;
+    margin: 10px 10px 10px 10px;
+
+}
+
+@media(max-width:900px){
+    .author-container {
+        height: 100%;
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .authors-div{
+        background-color: #ededf1;
+        height: 101px;
+        width: 439px;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: transform 0.3s ease;
+    }
+    .authors-div:hover{
+        transform: translateY(-5px);
+    }
+    
+    .author1 {
+
+        height: 101px;
+        width: 439px;
+        text-decoration: none;
+        border-radius: 20px;
+    
+    }
+    
+    .author1-img {
+        height: 85px;
+        width: 100px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+    
+    }
+    
+    .author1-div {
+        height: 419px;
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        position: relative;
+        flex-direction: row;
+    
+    }
+    
+    .author1-div::after {
+        position: absolute;
+        top: 52%;
+        left: 2rem;
+        content: ' hello wo';
+        text-decoration: underline wavy 3px #cdcdcd;
+        color: #ededf1;
+        text-align: center;
+        padding-bottom: 1rem;
+        display: none;
+    }
+    
+    .author-name-tag {
+        margin-top: 1rem;
+        color: #2b394e;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 10px 10px 10px 10px;
+        margin-left: 20px;
+    
+    }
+    
+    .author-post-count {
+        margin-bottom: .20rem;
+        font-size: 17px;
+        font-weight: 800;
+        color: #2b394e;
+        margin-left: 10px;
+        display: none;
+    }
+    
+    .about-author-detail {
+        padding-top: 2rem;
+        color: #2b394e;
+        width: 90%;
+        font-size: 16px;
+        text-align: start;
+        margin: 10px 10px 10px 10px;
+        display: none;
+    
+    }
+}
+@media(max-width:900px){
+    .author-container {
+        height: 100%;
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .authors-div{
+        background-color: #ededf1;
+        height: 101px;
+        width: 339px;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: transform 0.3s ease;
+    }
+    .authors-div:hover{
+        transform: translateY(-5px);
+    }
+    
+    .author1 {
+
+        height: 101px;
+        width: 439px;
+        text-decoration: none;
+        border-radius: 20px;
+    
+    }
+    
+    .author1-img {
+        height: 85px;
+        width: 100px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+    
+    }
+    
+    .author1-div {
+        height: 419px;
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        position: relative;
+        flex-direction: row;
+    
+    }
+    
+    .author1-div::after {
+        position: absolute;
+        top: 52%;
+        left: 2rem;
+        content: ' hello wo';
+        text-decoration: underline wavy 3px #cdcdcd;
+        color: #ededf1;
+        text-align: center;
+        padding-bottom: 1rem;
+        display: none;
+    }
+    
+    .author-name-tag {
+        margin-top: 1rem;
+        color: #2b394e;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 10px 10px 10px 10px;
+        margin-left: 20px;
+    
+    }
+    
+    .author-post-count {
+        margin-bottom: .20rem;
+        font-size: 17px;
+        font-weight: 800;
+        color: #2b394e;
+        margin-left: 10px;
+        display: none;
+    }
+    
+    .about-author-detail {
+        padding-top: 2rem;
+        color: #2b394e;
+        width: 90%;
+        font-size: 16px;
+        text-align: start;
+        margin: 10px 10px 10px 10px;
+        display: none;
+    
+    }
+}
+@media(max-width:370px){
+    .author-container {
+        height: 100%;
+        width: 100%;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+    .authors-div{
+        background-color: #ededf1;
+        height: 101px;
+        width: 239px;
+        text-decoration: none;
+        border-radius: 20px;
+        transition: transform 0.3s ease;
+    }
+    .authors-div:hover{
+        transform: translateY(-5px);
+    }
+    
+    .author1 {
+
+        height: 101px;
+        width: 439px;
+        text-decoration: none;
+        border-radius: 20px;
+    
+    }
+    
+    .author1-img {
+        height: 85px;
+        width: 100px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+    
+    }
+    
+    .author1-div {
+        height: 419px;
+        width: 200px;
+        padding: 10px 10px 10px 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+        position: relative;
+        flex-direction: row;
+    
+    }
+    
+    .author1-div::after {
+        position: absolute;
+        top: 52%;
+        left: 2rem;
+        content: ' hello wo';
+        text-decoration: underline wavy 3px #cdcdcd;
+        color: #ededf1;
+        text-align: center;
+        padding-bottom: 1rem;
+        display: none;
+    }
+    
+    .author-name-tag {
+        margin-top: 1rem;
+        color: #2b394e;
+        font-size: 20px;
+        font-weight: 900;
+        margin: 10px 10px 10px 10px;
+        margin-left: 20px;
+    
+    }
+    
+    .author-post-count {
+        margin-bottom: .20rem;
+        font-size: 17px;
+        font-weight: 800;
+        color: #2b394e;
+        margin-left: 10px;
+        display: none;
+    }
+    
+    .about-author-detail {
+        padding-top: 2rem;
+        color: #2b394e;
+        width: 90%;
+        font-size: 16px;
+        text-align: start;
+        margin: 10px 10px 10px 10px;
+        display: none;
+    
+    }
+}
+#js-nav{
+    z-index: 999;
+}
+.header{
+    position: relative;
+}
+.vertical-para{
+    position: absolute;
+    top: 20%;
+    left: 1rem;
+    font-size: 12px;
+    font-weight: 800;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+@media(max-width:900px){
+    .vertical-para{
+        position: absolute;
+        top: 13%;
+        font-size: 12px;
+        font-weight: 800;
+        left: 40%;
+        text-align: center;
+        writing-mode: horizontal-tb;
+        transform: rotate(0deg);
+        text-decoration: underline wavy 3px #ededf1;
+        margin-bottom: 2rem;
+    }
+}
