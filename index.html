@@ -9,25 +9,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
   </head>
 
   <body>
     <main>
       <div class="header">
         <div class="nav" id="nav">
-          <a href="#" class="nav-link" id="nav-link">Home</a>
-          <a href="#" class="nav-link">Membership</a>
-          <a href="#" class="nav-link">Style Guide</a>
+          <a href="index.html" class="nav-link" id="nav-link">Home</a>
+          <a href="author.html" class="nav-link">Authors</a>
+          <a href="tag.html" class="nav-link">Tags</a>
           <div class="dot-bar">
             <a href="#" class="nav-link icons"id="dot-icon"
               ><i class="fa fa-ellipsis-h" aria-hidden="true"></i
             ></a>
             <div class="icon-nav" id="js-nav">
-              <a href="" class="nav-bar">Features</a>
-              <a href="" class="nav-bar">Authors</a>
+              <a href="author.html" class="nav-bar">Authors</a>
               <a href="tag.html" class="nav-bar">Tags</a>
-              <a href="" class="nav-bar">Subscribe</a>
-              <a href="" class="nav-bar">Contact</a>
+              <a href="subscribe.html" class="nav-bar">Subscribe</a>
+              <a href="contact.html" class="nav-bar">Contact</a>
               <a href="" class="nav-bar">Demos</a>
               <a href="" class="nav-bar">Get Theme</a>
             </div>
@@ -48,7 +48,7 @@
             ><i class="fa fa-search fa-1x" aria-hidden="true"></i
           ></a>
           <a href="sign.html" class="sign-in">Sign in</a>
-          <a href="sign-up.html" class="sign-up">Sign up</a>
+          <a href="signup.html" class="sign-up">Sign up</a>
           <div class="bars menu-button" onclick="toggleMenu()">
             <a href="#" class="bar" id="bar"
               ><i class="fa fa-bars fa-2x" aria-hidden="true"></i
@@ -60,18 +60,18 @@
         </div>
         <div class="side-menu menu" id="menu">
           <ul id="side-menu-ul">
-            <li>Home</li>
+            <li><a href="index.html" class="li-link-side">Home</a></li>
             <li>Membership</li>
             <li>Style Guide</li>
             <li>Features</li>
-            <li>Authors</li>
+            <li><a href="author.html" class="li-link-side">Authors</a></li>
             <li><a href="tag.html" class="li-link-side">Tgas</a></li>
-            <li>Subscribe</li>
-            <li>Contact</li>
+            <li><a href="subscribe.html" class="li-limk-side">Subscribe</a></li>
+            <li><a href="contact.html" class="li-link-side">Contact</a></li>
             <li>Demos</li>
             <li>Get Theme</li>
-            <li>Sign in</li>
-            <li class="li-up"><a href="" class="li-up-1">Sign up</a></li>
+            <li><a href="sign.html" class="li-link-side"></a></li>
+            <li class="li-up"><a href="signup.html" class="li-up-1">Sign up</a></li>
           </ul>
           <div class="h2-container">
             <h3 class="search-bar-menu">
@@ -341,7 +341,7 @@
         </div>
         <div class="all-foot" id="all-foot">
           <!-- <div class="kinda-list"> -->
-          <div class="about">
+          <div class="about" id="about">
             <ul>
               <li class="about" id="about">A B O U T</li>
               <li class="li-foot-last">Features</li>
@@ -350,7 +350,7 @@
               <li class="li-foot-last">Get Theme</li>
             </ul>
           </div>
-          <div class="about">
+          <div class="about" id="about">
             <ul>
               <li class="about" id="about">F E A T U R E S</li>
               <li class="li-foot-last">Account</li>
@@ -359,7 +359,7 @@
               <li class="li-foot-last">Sign up</li>
             </ul>
           </div>
-          <div class="about">
+          <div class="about" id="about">
             <ul>
               <li class="about" id="about">SUPPORT</li>
               <li class="li-foot-last">Authors</li>
@@ -370,7 +370,7 @@
           </div>
         </div>
       </div>
-      <p class="copy">
+      <p class="copy" id="copy">
         Okiro © 2024. All Right Reserved. Published with Ghost & Okiro.
       </p>
     </main>
