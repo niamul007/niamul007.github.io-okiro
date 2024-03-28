@@ -62,3 +62,41 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+let searchIcon = document.querySelector(".search");
+
+searchIcon.addEventListener("click",()=>{
+  let searchbar = document.querySelector(".search-bar-appear");
+  searchbar.style.display="flex";
+  searchbar.classList.add("bodyClass");
+  document.body.style.overflow = 'hidden'
+})
+
+
+  let btnClose = document.querySelector(".cancle-icon");
+  btnClose.addEventListener("click",()=>{
+    let searchbar = document.querySelector(".search-bar-appear");
+
+    searchbar.style.display="none";
+    searchbar.classList.add("bodyClass");
+    document.body.style.overflow = 'auto'; 
+  })
+function forAllNormie(){
+  let searchIcon = document.querySelector(".search");
+
+searchIcon.addEventListener("click",()=>{
+  let searchbar = document.querySelector(".search-bar-appear");
+  searchbar.style.display="flex";
+  searchbar.classList.add("bodyClass");
+  document.body.style.overflow = 'hidden'
+})
+
+
+  let btnClose = document.querySelector(".cancle-icon");
+  btnClose.addEventListener("click",()=>{
+    let searchbar = document.querySelector(".search-bar-appear");
+
+    searchbar.style.display="none";
+    searchbar.classList.add("bodyClass");
+    document.body.style.overflow = 'auto'; 
+  })
+}
